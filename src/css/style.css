@@ -218,7 +218,12 @@ a {
 
 .content-btn {
   background-color: #27587B;
-  margin-left: 30px; }
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all .5s;
+  transform: scale(1); }
+  .content-btn:hover {
+    transform: scale(1.1); }
 
 .footer {
   min-height: 135px;
